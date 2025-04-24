@@ -1,0 +1,28 @@
+{
+  "name": "standup-time",
+  "version": "0.0.1",
+  "description": "Generate a useful, and maybe not-so-useful, order for your daily standup!",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "fastify": "^4.0.3",
+    "handlebars": "^4.7.7",
+    "@fastify/static": "^6.4.0",
+    "@fastify/view": "^7.0.0",
+    "@fastify/formbody": "^7.0.1"
+  },
+  "engines": {
+    "node": "14.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/standup-time"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
